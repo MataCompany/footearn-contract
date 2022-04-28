@@ -1,0 +1,46 @@
+{
+    "name": "ethereum_contracts",
+    "version": "1.1.0",
+    "description": "Dependencies and scripts for Peggy smart contracts",
+    "main": "truffle.js",
+    "directories": {
+        "test": "test"
+    },
+    "author": "Denali Marsh",
+    "license": "ISC",
+    "dependencies": {
+        "@openzeppelin/contracts-upgradeable": "4.2.0",
+        "@openzeppelin/truffle-upgrades": "1.8.0",
+        "@poanet/solidity-flattener": "3.0.6",
+        "big-integer": "1.6.48",
+        "bignumber.js": "6.0.0",
+        "bluebird": "3.5.1",
+        "cross-env": "5.0.5",
+        "dotenv": "8.1.0",
+        "eth-lib": "0.2.8",
+        "ethereumjs-util": "5.2.0",
+        "jsonfile": "^6.1.0",
+        "keccak": "1.4.0",
+        "lodash": "4.17.20",
+        "openzeppelin-solidity": "4.2.0",
+        "truffle-contract": "4.0.31",
+        "truffle-contract-size": "2.0.1",
+        "utf8": "3.0.0"
+    },
+    "devDependencies": {
+        "@openzeppelin/contracts": "4.2.0",
+        "@openzeppelin/test-helpers": "^0.5.15",
+        "@truffle/hdwallet-provider": "1.4.0",
+        "chai": "4.2.0",
+        "chai-as-promised": "7.1.1",
+        "chai-bignumber": "3.0.0",
+        "ganache-cli": "6.8.2",
+        "truffle": "5.4.3",
+        "truffle-plugin-verify": "0.5.12",
+        "web3": "1.2.6",
+        "web3-utils": "1.0.0-beta.52"
+    },
+    "scripts": {
+        "develop": "ganache-cli -i 5777 -p 8546 -m 'candy maple cake sugar pudding cream honey rich smooth crumble sweet treat'"
+    }
+}
